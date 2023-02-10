@@ -1,0 +1,118 @@
+.header {
+    padding-top: 28px;
+    height: 83px;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    transition: background 0.5s ease, transform 0.5s ease;
+    box-shadow: 0 0 65px rgb(0 0 0 / 7%);
+}
+
+.container {
+    max-width: 1432px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 148px;
+    height: 26px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header__item {
+
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    font-family: inherit;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.header__active {
+    color: #f24a00;
+}
+
+.header__link:hover {
+    color: #f24a00;
+}
+
+.header__select {
+    border: none;
+    background: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.header__select::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(../../assets//images/flag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header__btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.header__icon {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 1000px){    
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header__logo {
+        width: 148px;
+        height: 26px;
+    }
+    
+    .header__list {
+        display: none;
+    }
+    
+    .header__item {
+        display: block;
+    }
+    
+    .header__link {
+        text-decoration: none;
+        font-size: 14px;
+        /* color: var(--primary-white-color); */
+        font-weight: 600;
+        font-family: inherit;
+        text-transform: uppercase;
+        transition: 0.3s ease;
+    }
+}

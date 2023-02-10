@@ -1,0 +1,60 @@
+.energy {
+    background-image: url(../../assets/images/cotton.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.enery__heading__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.enery__heading {
+    font-size: 52px;
+    font-weight: normal;
+    font-family: 'Teko', sans-serif;
+}
+
+.enery__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enery__item {
+    max-width: 309px;
+    width: 100%;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 57px 20px;
+    background-color: red;
+    text-align: center;
+    border-radius: 10px;
+    /* opacity: 0.9; */
+}
+
+.energy__title {
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    color: #212529;
+    margin-bottom: 8px;
+}
+
+.energy__name {
+    color: #000000;
+    font-size: 25px;
+    line-height: 1.3;
+}

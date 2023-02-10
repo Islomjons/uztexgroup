@@ -1,0 +1,99 @@
+.uztex {
+    padding: 220px 0px 60px;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.uztex__container {
+    display: flex;
+    gap: 146px;
+}
+
+.uztex__left {
+    max-width: 349px;
+    width: 100%;
+}
+
+.uztex__left__wrapper {
+    text-align: end;
+}
+
+.uztex__left__title {
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+}
+
+/* right side */
+
+.uztex__right {
+    max-width: 523.27px;
+    width: 100%;
+}
+
+.uztex__right__title {
+    max-width: 174.1px;
+    width: 100%;
+    background: none;
+    background-color: #f14201;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 4px 6px 1px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+
+.uztex__right__heading {
+    font-weight: 400;
+    font-size: 72px;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 50px;
+}
+
+.uztex__right__text {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    line-height: 1.75;
+    margin-bottom: 30px;
+}
+
+.uztex__right__text1 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    line-height: 1.75;
+    margin-bottom: 30px;
+}
+
+.uztex__right__text2 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    line-height: 1.75;
+    margin-bottom: 30px;
+}
+
+.uztex__right__link {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+    line-height: 1.4;
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.uztex__right__link:hover {
+    color: #f14201;
+    border-bottom: 2px solid #f14201;
+}
