@@ -1,0 +1,132 @@
+.bgimg {
+    background-image: url(../../assets/images/dot.jpeg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: calc(50%) -50px;
+    padding: 134px 0px 138px;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.bgimg__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bgimg__item {
+    max-width: 191px;
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.bgimg__img {
+    width: 131px;
+    height: 104px;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 1170px) {    
+    .container {
+        max-width: 1140px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .bgimg__item {
+        max-width: 190px;
+        width: 100%;
+        padding: 0px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bgimg__img {
+        width: 129px;
+        height: 103px;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .bgimg {
+        background-image: url(../../assets/images/dot.jpeg);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: calc(50%) -50px;
+        padding: 134px 0px 138px;
+    }
+    
+    .container {
+        max-width: 1140px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .bgimg__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .bgimg__item {
+        max-width: 191px;
+        width: 100%;
+        padding: 0px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bgimg__img {
+        width: 89px;
+        height: 71px;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 850px) {    
+    .container {
+        max-width: 1140px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .bgimg__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .bgimg__item {
+        max-width: 510px;
+        width: 100%;
+        padding: 0px 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bgimg__img {
+        width: 252px;
+        height: 201px;
+        object-fit: contain;
+    }
+}

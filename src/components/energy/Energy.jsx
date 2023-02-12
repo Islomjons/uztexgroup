@@ -2,15 +2,16 @@ import React from 'react'
 import c from "./Energy.module.css"
 import { v4 as uuidv4 } from 'uuid';
 import energyJson from "../../dummiy-data.energy.json"
-import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Energy = () => {
+    const { t } = useTranslation()
   return (
     <div className={c.energy}>
         <div className={c.container}>
             <div className={c.enery__container}>
                 <div className={c.enery__heading__wrapper}>
-                    <h3 className={c.enery__heading}>Yillik ishlab chiqarish quvvati</h3>
+                    <h3 className={c.enery__heading}>{t("manifuctureBattery")}</h3>
                 </div>
                 <ul className={c.enery__list}>
                     {

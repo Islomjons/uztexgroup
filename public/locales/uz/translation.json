@@ -2,5 +2,16 @@
     "main" : "ASOSIY",
     "AboutCompany" : "KOMPANIYA HAQIDA",
     "News" : "YANGILIKLAR",
-    "communication" : "ALOQA"
+    "communication" : "ALOQA",
+    "uztex" : "UZTEX kompaniyalar guruhi MDH mamlakatlarida to'qimachilik mahsulotlarini vertikal integratsiyalashgan etakchi ishlab chiqaruvchisi hisoblanadi. UZTEX GROUP ning ishlab chiqarish quvvatlari paxtadan to'qimachilik mahsulotlarining butun assortimentini ishlab chiqarishga imkon beradi: qo'pol va bo'yalgan iplarning barcha turlari, qo'pol va bo'yalgan trikotaj mato, tayyor trikotaj, paypoq va terri mahsulotlari.",
+    "uztexGroup" : "UZTEX GROUP ning tarixi 10 yildan ko'proq vaqtga borib taqaladi, o'shanda 2009 yilda bo'yalgan tuval ishlab chiqarish bo'yicha birinchi zavod ishga tushirilgan.",
+    "todaysDay" : "Bugungi kunda O'zbekiston Respublikasining turli hududlarida joylashgan UZTEX GROUP korxonalarining yillik ishlab chiqarish quvvati 45000 tonnadan ortiq har xil turdagi kulrang ipni tashkil qiladi.",
+    "aboutUs" : "BIZ HAQIMIZDA KO'PROQ",
+    "manifuctureBattery" : "Yillik ishlab chiqarish quvvati",
+    "ourFactory" : "BIZNING ISHLAB CHIQARISH",
+    "technologies" : "TEXNOLOGIYALAR",
+    "texnalogiyalarniBoyash" : "IPLARNI BOYASH TEXNALOGIYASI",
+    "matolaringBoyash" : "Matolarni bo'yash texnologiyasi",
+    "bosibChiqishTexnalogiyasi" : "AYLANMA BOSIB CHIQISH TEXNOLOGIYASI",
+    "tikish" : "TAYYOR MAXSULOTLARNI TIKISHI"
 }
