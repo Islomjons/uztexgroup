@@ -6,6 +6,7 @@ import Technology from '../../components/technology/Technology'
 import Uztex from '../../components/uztex/Uztex'
 import BgImg from "../../components/bgImg/BgImg"
 import News from '../../components/news/News'
+import Mchj from '../../components/mchj/Mchj'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Student />
         <BgImg />
         <News />
+        <Mchj />
     </div>
   )
 }

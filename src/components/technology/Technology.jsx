@@ -12,7 +12,7 @@ const Technology = () => {
   const { t } = useTranslation()
   const [toggles, setToggles] = useState(null)
   const toggle = (i) => {
-    if (toggles == i) {
+    if (toggles === i) {
         return setToggles(null)
     }else{
         setToggles(i)
@@ -53,12 +53,3 @@ const Technology = () => {
 }
 
 export default Technology
-
-{/* <li className={c.technology__left__item}>
-<div className={c.technology__left__wrapper}>
-    <Link className={c.technology__left__link}>{t("texnalogiyalarniBoyash")}</Link>
-    <Link>
-        <BsChevronDown style={{width: "17px", height: "17px"}}/>
-    </Link>
-</div>
-</li> */}
